@@ -1,0 +1,267 @@
+# Translation of WP Opening Hours in French (France)
+# This file is distributed under the same license as the WP Opening Hours package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2014-01-24 15:55:38+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: GlotPress/0.1\n"
+"Project-Id-Version: WP Opening Hours\n"
+
+#: ../lib/widgets/OpeningHoursSpecialOpenings.widget.php:14
+msgid "This Widget lists up all the Special Openings that you have set up in the Opening Hours Menu-Section."
+msgstr ""
+
+#: ../lib/widgets/OpeningHoursSpecialOpenings.widget.php:17
+msgid "Opening Hours: Special Openings"
+msgstr ""
+
+#: ../lib/widgets/OpeningHoursSpecialOpenings.widget.php:96
+msgid "Highlight today's Special Opening."
+msgstr ""
+
+#: ../lib/widgets/OpeningHoursSpecialOpenings.widget.php:102
+msgid "Label Special Openings by:"
+msgstr ""
+
+#: ../lib/widgets/OpeningHoursSpecialOpenings.widget.php:109
+msgid "Both"
+msgstr ""
+
+#: ../lib/widgets/OpeningHoursSpecialOpenings.widget.php:118
+msgid "Only choose \"Both\" when your widget area is wide enough"
+msgstr ""
+
+#: ../templates/setup-page.php:56
+msgid "Set up your Opening Hours in this form. You can add several periods per day."
+msgstr ""
+
+#: ../templates/special-openings-page.php:47
+msgid "Special Openings overwrite the Opening Hours of a certain day."
+msgstr ""
+
+#: ../lib/init.php:59 ../lib/init.php:60
+msgid "Special Openings"
+msgstr ""
+
+#: ../templates/special-openings-page.php:40
+msgid "Special Opening Hours"
+msgstr ""
+
+#: ../templates/special-openings-page.php:42
+msgid "Add Special Opening"
+msgstr ""
+
+#: ../lib/widgets/OpeningHoursSpecialOpenings.widget.php:108
+#: ../templates/special-openings-page.php:56
+msgid "Date"
+msgstr ""
+
+#: ../templates/special-openings-page.php:57
+msgid "Start Time"
+msgstr ""
+
+#: ../templates/special-openings-page.php:58
+msgid "End Time"
+msgstr ""
+
+#: ../lib/init.php:39 ../lib/init.php:40
+#: ../lib/widgets/OpeningHoursOverview.widget.php:21
+#: ../templates/setup-page.php:52
+msgid "Opening Hours"
+msgstr "Heures d'ouverture"
+
+#: ../lib/init.php:49 ../lib/init.php:50 ../templates/holidays-page.php:26
+msgid "Holidays"
+msgstr "Congés"
+
+#: ../lib/init.php:69 ../lib/init.php:70 ../templates/settings-page.php:26
+msgid "Settings"
+msgstr "Réglages"
+
+#: ../lib/shortcodes.php:13
+msgid "We're currently open"
+msgstr "Nous sommes actuellement ouvert"
+
+#: ../lib/shortcodes.php:14
+msgid "We're currently closed"
+msgstr "Nous sommes actuellement fermé"
+
+#: ../lib/widgets/OpeningHoursHolidays.widget.php:14
+msgid "This Widget lists up all Holidays set up in the Opening Hours Section."
+msgstr "Affiche la liste de toutes les vacances configurées."
+
+#: ../lib/widgets/OpeningHoursHolidays.widget.php:17
+msgid "Opening Hours Holidays"
+msgstr ""
+
+#: ../lib/widgets/OpeningHoursHolidays.widget.php:84
+#: ../lib/widgets/OpeningHoursOverview.widget.php:101
+#: ../lib/widgets/OpeningHoursSpecialOpenings.widget.php:88
+#: ../lib/widgets/OpeningHoursStatus.widget.php:83
+msgid "Title"
+msgstr "Titre"
+
+#: ../lib/widgets/OpeningHoursHolidays.widget.php:92
+msgid "Highlight currently running Holidays."
+msgstr "Surligne les congés en cours."
+
+#: ../lib/widgets/OpeningHoursOverview.widget.php:14
+msgid "This Widgets displays an overview of your Opening Hours in the corresponding Sidebar"
+msgstr "Affiche  un apperçu de vos horraires d'ouverture dans votre barre barre latérale."
+
+#: ../lib/widgets/OpeningHoursOverview.widget.php:17
+msgid "Opening Hours Overview"
+msgstr ""
+
+#: ../lib/widgets/OpeningHoursOverview.widget.php:22
+msgid "Closed"
+msgstr "Fermé"
+
+#: ../lib/widgets/OpeningHoursOverview.widget.php:109
+msgid "Also show closed days"
+msgstr "Affiche aussi les jours de fermeture"
+
+#: ../lib/widgets/OpeningHoursOverview.widget.php:115
+msgid "Caption for \"closed\"-label"
+msgstr "Légende pour le label \"closed\""
+
+#: ../lib/widgets/OpeningHoursOverview.widget.php:122
+msgid "Highlight:"
+msgstr "Surligner:"
+
+#: ../lib/widgets/OpeningHoursOverview.widget.php:128
+msgid "nothing"
+msgstr "rien"
+
+#: ../lib/widgets/OpeningHoursOverview.widget.php:129
+msgid "running period"
+msgstr "période de fonctionnement"
+
+#: ../lib/widgets/OpeningHoursOverview.widget.php:130
+msgid "current day"
+msgstr "jour actuel"
+
+#: ../lib/widgets/OpeningHoursStatus.widget.php:14
+msgid "This Widgets displays information in your sidebar, wether your venue is closed or open."
+msgstr "Affiche dans votre barre barre latérale si votre lieux est fermé ou ouvert."
+
+#: ../lib/widgets/OpeningHoursStatus.widget.php:17
+msgid "Opening Hours Status"
+msgstr ""
+
+#: ../lib/widgets/OpeningHoursStatus.widget.php:21
+msgid "We're currently open."
+msgstr "Nous sommes actuellement ouvert."
+
+#: ../lib/widgets/OpeningHoursStatus.widget.php:22
+msgid "We're currently closed."
+msgstr "Nous sommes actuellement fermé."
+
+#: ../lib/widgets/OpeningHoursStatus.widget.php:23
+msgid "We're currently on holiday."
+msgstr "Nous sommes actuellement en congés."
+
+#: ../lib/widgets/OpeningHoursStatus.widget.php:90
+msgid "Custom open-message"
+msgstr "Message d'ouverture personalisé"
+
+#: ../lib/widgets/OpeningHoursStatus.widget.php:97
+msgid "Custom closed-message"
+msgstr "Message de fermeture personalisé"
+
+#: ../lib/widgets/OpeningHoursStatus.widget.php:104
+msgid "Custom closed-holiday-message"
+msgstr "Messages de fermeture pour congés personalisé"
+
+#: ../lib/classes/OpeningHours.class.php:26 ../templates/setup-page.php:7
+msgid "Monday"
+msgstr "Lundi"
+
+#: ../lib/classes/OpeningHours.class.php:27 ../templates/setup-page.php:8
+msgid "Tuesday"
+msgstr "Mardi"
+
+#: ../lib/classes/OpeningHours.class.php:28 ../templates/setup-page.php:9
+msgid "Wednesday"
+msgstr "Mercredi"
+
+#: ../lib/classes/OpeningHours.class.php:29 ../templates/setup-page.php:10
+msgid "Thursday"
+msgstr "Jeudi"
+
+#: ../lib/classes/OpeningHours.class.php:30 ../templates/setup-page.php:11
+msgid "Friday"
+msgstr "Vendredi"
+
+#: ../lib/classes/OpeningHours.class.php:31 ../templates/setup-page.php:12
+msgid "Saturday"
+msgstr "Samedi"
+
+#: ../lib/classes/OpeningHours.class.php:32 ../templates/setup-page.php:13
+msgid "Sunday"
+msgstr "Dimanche"
+
+#: ../templates/holidays-page.php:28
+msgid "Add Holiday"
+msgstr "Ajouter des congés"
+
+#: ../templates/holidays-page.php:33
+msgid "Give your Holiday a name and set start and end date."
+msgstr "Donnez à vons congés un nom et choisisez une date de début et de fin."
+
+#: ../lib/widgets/OpeningHoursSpecialOpenings.widget.php:107
+#: ../templates/holidays-page.php:39 ../templates/special-openings-page.php:55
+msgid "Name"
+msgstr "Nom"
+
+#: ../templates/holidays-page.php:40
+msgid "Start Date"
+msgstr "Date de début"
+
+#: ../templates/holidays-page.php:41
+msgid "End Date"
+msgstr "Date de fin"
+
+#: ../templates/holidays-page.php:53 ../templates/setup-page.php:98
+#: ../templates/setup-page.php:143 ../templates/special-openings-page.php:69
+msgid "Remove"
+msgstr "Supprimer"
+
+#: ../templates/settings-page.php:32
+msgid "Time Format"
+msgstr "Format d'heures"
+
+#: ../templates/settings-page.php:39
+msgid "Choose a time format"
+msgstr "Choisisez un format d'heures"
+
+#: ../templates/settings-page.php:65
+msgid "Insert your own time-format."
+msgstr "Format d'heures personalisé."
+
+#: ../templates/settings-page.php:66 ../templates/settings-page.php:110
+msgid "Read more"
+msgstr "En savoir plus"
+
+#: ../templates/settings-page.php:75
+msgid "Date Format"
+msgstr "Format de dates"
+
+#: ../templates/settings-page.php:82
+msgid "Choose a date format"
+msgstr "Choisisez un format de dates"
+
+#: ../templates/settings-page.php:109
+msgid "Insert your own date-format."
+msgstr "Format de dates personalisé."
+
+#: ../templates/settings-page.php:121
+msgid "Save Changes"
+msgstr "Enregistrer les modifications"
+
+#: ../templates/setup-page.php:96
+msgid "Add Period"
+msgstr "Ajouter une plage horraire"

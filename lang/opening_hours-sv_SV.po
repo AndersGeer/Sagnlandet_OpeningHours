@@ -1,0 +1,267 @@
+# Translation of WP Opening Hours in Swedish
+# This file is distributed under the same license as the WP Opening Hours package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2014-01-25 16:08:11+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/0.1\n"
+"Project-Id-Version: WP Opening Hours\n"
+
+#: ../lib/widgets/OpeningHoursSpecialOpenings.widget.php:14
+msgid "This Widget lists up all the Special Openings that you have set up in the Opening Hours Menu-Section."
+msgstr "Denna Widget visar alla Extraöppningar som du har lagt till i menysektionen för Opening Hours"
+
+#: ../lib/widgets/OpeningHoursSpecialOpenings.widget.php:17
+msgid "Opening Hours: Special Openings"
+msgstr "Öppettider: Extraöppningar"
+
+#: ../lib/widgets/OpeningHoursSpecialOpenings.widget.php:96
+msgid "Highlight today's Special Opening."
+msgstr "Markera dagens Extraöppet"
+
+#: ../lib/widgets/OpeningHoursSpecialOpenings.widget.php:102
+msgid "Label Special Openings by:"
+msgstr "Namnge Extraöppningar med:"
+
+#: ../lib/widgets/OpeningHoursSpecialOpenings.widget.php:109
+msgid "Both"
+msgstr "Båda"
+
+#: ../lib/widgets/OpeningHoursSpecialOpenings.widget.php:118
+msgid "Only choose \"Both\" when your widget area is wide enough"
+msgstr "Välj endast \"Båda\" när din widget plats är tillräckligt bred."
+
+#: ../templates/setup-page.php:56
+msgid "Set up your Opening Hours in this form. You can add several periods per day."
+msgstr "Ställ in dina Öppettider i detta formulär - du kan lägga till flera intervall per dag."
+
+#: ../templates/special-openings-page.php:47
+msgid "Special Openings overwrite the Opening Hours of a certain day."
+msgstr "Extraöppet skriver över Öppettiderna för en viss dag."
+
+#: ../lib/init.php:59 ../lib/init.php:60
+msgid "Special Openings"
+msgstr "Extraöppet"
+
+#: ../templates/special-openings-page.php:40
+msgid "Special Opening Hours"
+msgstr "Särskilda öppettider"
+
+#: ../templates/special-openings-page.php:42
+msgid "Add Special Opening"
+msgstr "Lägg till särskild öppning"
+
+#: ../lib/widgets/OpeningHoursSpecialOpenings.widget.php:108
+#: ../templates/special-openings-page.php:56
+msgid "Date"
+msgstr "Datum"
+
+#: ../templates/special-openings-page.php:57
+msgid "Start Time"
+msgstr "Starttid"
+
+#: ../templates/special-openings-page.php:58
+msgid "End Time"
+msgstr "Sluttid"
+
+#: ../lib/init.php:39 ../lib/init.php:40
+#: ../lib/widgets/OpeningHoursOverview.widget.php:21
+#: ../templates/setup-page.php:52
+msgid "Opening Hours"
+msgstr "Öppettider"
+
+#: ../lib/init.php:49 ../lib/init.php:50 ../templates/holidays-page.php:26
+msgid "Holidays"
+msgstr "Helgdagar"
+
+#: ../lib/init.php:69 ../lib/init.php:70 ../templates/settings-page.php:26
+msgid "Settings"
+msgstr "Inställningar"
+
+#: ../lib/shortcodes.php:13
+msgid "We're currently open"
+msgstr "Vi har just nu öppet"
+
+#: ../lib/shortcodes.php:14
+msgid "We're currently closed"
+msgstr "Vi har just nu stängt"
+
+#: ../lib/widgets/OpeningHoursHolidays.widget.php:14
+msgid "This Widget lists up all Holidays set up in the Opening Hours Section."
+msgstr "Denna widget visar alla Helgdagar enligt sektionen för Öppettider"
+
+#: ../lib/widgets/OpeningHoursHolidays.widget.php:17
+msgid "Opening Hours Holidays"
+msgstr "Öppettider för helgdagar"
+
+#: ../lib/widgets/OpeningHoursHolidays.widget.php:84
+#: ../lib/widgets/OpeningHoursOverview.widget.php:101
+#: ../lib/widgets/OpeningHoursSpecialOpenings.widget.php:88
+#: ../lib/widgets/OpeningHoursStatus.widget.php:83
+msgid "Title"
+msgstr "Titel"
+
+#: ../lib/widgets/OpeningHoursHolidays.widget.php:92
+msgid "Highlight currently running Holidays."
+msgstr "Markera pågående Helgdagar"
+
+#: ../lib/widgets/OpeningHoursOverview.widget.php:14
+msgid "This Widgets displays an overview of your Opening Hours in the corresponding Sidebar"
+msgstr "Denna widget visar en överblick av dina Öppettider i motsvarande sidofält"
+
+#: ../lib/widgets/OpeningHoursOverview.widget.php:17
+msgid "Opening Hours Overview"
+msgstr "Överblick av öppettider"
+
+#: ../lib/widgets/OpeningHoursOverview.widget.php:22
+msgid "Closed"
+msgstr "Stängt"
+
+#: ../lib/widgets/OpeningHoursOverview.widget.php:109
+msgid "Also show closed days"
+msgstr "Visa även stängda dagar"
+
+#: ../lib/widgets/OpeningHoursOverview.widget.php:115
+msgid "Caption for \"closed\"-label"
+msgstr "Rubrik för \"stängt\"-etikett"
+
+#: ../lib/widgets/OpeningHoursOverview.widget.php:122
+msgid "Highlight:"
+msgstr "Markera:"
+
+#: ../lib/widgets/OpeningHoursOverview.widget.php:128
+msgid "nothing"
+msgstr "inget"
+
+#: ../lib/widgets/OpeningHoursOverview.widget.php:129
+msgid "running period"
+msgstr "aktuell period"
+
+#: ../lib/widgets/OpeningHoursOverview.widget.php:130
+msgid "current day"
+msgstr "aktuell dag"
+
+#: ../lib/widgets/OpeningHoursStatus.widget.php:14
+msgid "This Widgets displays information in your sidebar, wether your venue is closed or open."
+msgstr "Denna widget visar om ditt företag är stängt eller öppet i ditt sidofält"
+
+#: ../lib/widgets/OpeningHoursStatus.widget.php:17
+msgid "Opening Hours Status"
+msgstr "Status för öppettider"
+
+#: ../lib/widgets/OpeningHoursStatus.widget.php:21
+msgid "We're currently open."
+msgstr "Vi har just nu öppet."
+
+#: ../lib/widgets/OpeningHoursStatus.widget.php:22
+msgid "We're currently closed."
+msgstr "Vi har just nu stängt."
+
+#: ../lib/widgets/OpeningHoursStatus.widget.php:23
+msgid "We're currently on holiday."
+msgstr "Vi är för tillfället på semester."
+
+#: ../lib/widgets/OpeningHoursStatus.widget.php:90
+msgid "Custom open-message"
+msgstr "Anpassat öppet meddelande"
+
+#: ../lib/widgets/OpeningHoursStatus.widget.php:97
+msgid "Custom closed-message"
+msgstr "Anpassat stängtmeddelande"
+
+#: ../lib/widgets/OpeningHoursStatus.widget.php:104
+msgid "Custom closed-holiday-message"
+msgstr "Anpassat meddelande vid semesterstängt"
+
+#: ../lib/classes/OpeningHours.class.php:26 ../templates/setup-page.php:7
+msgid "Monday"
+msgstr "Måndag"
+
+#: ../lib/classes/OpeningHours.class.php:27 ../templates/setup-page.php:8
+msgid "Tuesday"
+msgstr "Tisdag"
+
+#: ../lib/classes/OpeningHours.class.php:28 ../templates/setup-page.php:9
+msgid "Wednesday"
+msgstr "Onsdag"
+
+#: ../lib/classes/OpeningHours.class.php:29 ../templates/setup-page.php:10
+msgid "Thursday"
+msgstr "Torsdag"
+
+#: ../lib/classes/OpeningHours.class.php:30 ../templates/setup-page.php:11
+msgid "Friday"
+msgstr "Fredag"
+
+#: ../lib/classes/OpeningHours.class.php:31 ../templates/setup-page.php:12
+msgid "Saturday"
+msgstr "Lördag"
+
+#: ../lib/classes/OpeningHours.class.php:32 ../templates/setup-page.php:13
+msgid "Sunday"
+msgstr "Söndag"
+
+#: ../templates/holidays-page.php:28
+msgid "Add Holiday"
+msgstr "Lägg till helgdag/semester"
+
+#: ../templates/holidays-page.php:33
+msgid "Give your Holiday a name and set start and end date."
+msgstr "Ge din helgdag/semester ett namn, ett start- och ett slutdatum."
+
+#: ../lib/widgets/OpeningHoursSpecialOpenings.widget.php:107
+#: ../templates/holidays-page.php:39 ../templates/special-openings-page.php:55
+msgid "Name"
+msgstr "Namn"
+
+#: ../templates/holidays-page.php:40
+msgid "Start Date"
+msgstr "Startdatum"
+
+#: ../templates/holidays-page.php:41
+msgid "End Date"
+msgstr "Slutdatum"
+
+#: ../templates/holidays-page.php:53 ../templates/setup-page.php:98
+#: ../templates/setup-page.php:143 ../templates/special-openings-page.php:69
+msgid "Remove"
+msgstr "Ta bort"
+
+#: ../templates/settings-page.php:32
+msgid "Time Format"
+msgstr "Tidsformat"
+
+#: ../templates/settings-page.php:39
+msgid "Choose a time format"
+msgstr "Välj ett tidsformat"
+
+#: ../templates/settings-page.php:65
+msgid "Insert your own time-format."
+msgstr "Lägg till ditt eget tidsformat."
+
+#: ../templates/settings-page.php:66 ../templates/settings-page.php:110
+msgid "Read more"
+msgstr "Läs mer"
+
+#: ../templates/settings-page.php:75
+msgid "Date Format"
+msgstr "Datumformat"
+
+#: ../templates/settings-page.php:82
+msgid "Choose a date format"
+msgstr "Välj ett datumformat"
+
+#: ../templates/settings-page.php:109
+msgid "Insert your own date-format."
+msgstr "Lägg till ditt eget datumformat."
+
+#: ../templates/settings-page.php:121
+msgid "Save Changes"
+msgstr "Spara ändringar"
+
+#: ../templates/setup-page.php:96
+msgid "Add Period"
+msgstr "Lägg till en period"

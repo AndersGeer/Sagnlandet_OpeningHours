@@ -1,0 +1,44 @@
+/**
+ *	Opening Hours – Tables
+ */
+.op-table {
+	border:			none;
+}
+
+.op-table td, .op-table th {
+	border:			none;
+	padding-right:	5px;
+	padding-bottom:	5px;
+}
+
+/**
+ *	Opening Hours Overview Widget
+ */
+.highlighted {
+	color:		green;
+}
+
+.op-overview-set.closed {
+	color:		red;
+}
+
+/**
+ *	Opening Hours Status Widget
+ */
+.op-status-label {
+	font-weight:	bold;
+	vertical-align:	center;
+	padding-left:	20px;
+}
+
+.op-status-label.open {
+	color:			green;
+	background:		url(../img/circle-green.png) no-repeat center left;
+	background-size:15px 15px;
+}
+
+.op-status-label.closed {
+	color:			red;
+	background:		url(../img/circle-red.png) no-repeat center left;
+	background-size:15px 15px;
+}

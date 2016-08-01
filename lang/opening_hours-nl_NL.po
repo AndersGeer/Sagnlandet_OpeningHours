@@ -1,0 +1,267 @@
+# Translation of WP Opening Hours in Dutch
+# This file is distributed under the same license as the WP Opening Hours package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2014-01-18 10:03:17+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/0.1\n"
+"Project-Id-Version: WP Opening Hours\n"
+
+#: ../lib/widgets/OpeningHoursSpecialOpenings.widget.php:14
+msgid "This Widget lists up all the Special Openings that you have set up in the Opening Hours Menu-Section."
+msgstr "Deze Widget laat een lijst zien van alle Speciale Openingen welke u heeft ingesteld in de Openingsuren Menu-Sectie."
+
+#: ../lib/widgets/OpeningHoursSpecialOpenings.widget.php:17
+msgid "Opening Hours: Special Openings"
+msgstr "Openings Uren: Speciale Openingen"
+
+#: ../lib/widgets/OpeningHoursSpecialOpenings.widget.php:96
+msgid "Highlight today's Special Opening."
+msgstr "Highlight vandaag de Speciale opening."
+
+#: ../lib/widgets/OpeningHoursSpecialOpenings.widget.php:102
+msgid "Label Special Openings by:"
+msgstr "Label Speciale Openingen:"
+
+#: ../lib/widgets/OpeningHoursSpecialOpenings.widget.php:109
+msgid "Both"
+msgstr "Allebei"
+
+#: ../lib/widgets/OpeningHoursSpecialOpenings.widget.php:118
+msgid "Only choose \"Both\" when your widget area is wide enough"
+msgstr "Kies alleen \"Allebei\" als uw widget gebied breed genoeg is"
+
+#: ../templates/setup-page.php:56
+msgid "Set up your Opening Hours in this form. You can add several periods per day."
+msgstr "Stel de Openingsuren in, in dit formulier. U kunt verschillende periodes per dag toevoegen."
+
+#: ../templates/special-openings-page.php:47
+msgid "Special Openings overwrite the Opening Hours of a certain day."
+msgstr "Speciale Openingen overschrijven de Openingsuren van een bepaalde dag."
+
+#: ../lib/init.php:59 ../lib/init.php:60
+msgid "Special Openings"
+msgstr "Speciale Openingen"
+
+#: ../templates/special-openings-page.php:40
+msgid "Special Opening Hours"
+msgstr "Speciale Openingsuren"
+
+#: ../templates/special-openings-page.php:42
+msgid "Add Special Opening"
+msgstr "Voeg Speciale Opening toe"
+
+#: ../lib/widgets/OpeningHoursSpecialOpenings.widget.php:108
+#: ../templates/special-openings-page.php:56
+msgid "Date"
+msgstr "Datum"
+
+#: ../templates/special-openings-page.php:57
+msgid "Start Time"
+msgstr "Start Tijd"
+
+#: ../templates/special-openings-page.php:58
+msgid "End Time"
+msgstr "Eind Tijd"
+
+#: ../lib/init.php:39 ../lib/init.php:40
+#: ../lib/widgets/OpeningHoursOverview.widget.php:21
+#: ../templates/setup-page.php:52
+msgid "Opening Hours"
+msgstr "Openingstijden"
+
+#: ../lib/init.php:49 ../lib/init.php:50 ../templates/holidays-page.php:26
+msgid "Holidays"
+msgstr "Vakantie"
+
+#: ../lib/init.php:69 ../lib/init.php:70 ../templates/settings-page.php:26
+msgid "Settings"
+msgstr "Instellingen"
+
+#: ../lib/shortcodes.php:13
+msgid "We're currently open"
+msgstr "We zijn op dit moment geopend"
+
+#: ../lib/shortcodes.php:14
+msgid "We're currently closed"
+msgstr "We zijn op dit moment gesloten"
+
+#: ../lib/widgets/OpeningHoursHolidays.widget.php:14
+msgid "This Widget lists up all Holidays set up in the Opening Hours Section."
+msgstr "Deze Widget toont een lijst van alle vakanties, die in de Openingstijden-Instellingen vermeldt werden."
+
+#: ../lib/widgets/OpeningHoursHolidays.widget.php:17
+msgid "Opening Hours Holidays"
+msgstr "Openingstijden: Vakantie"
+
+#: ../lib/widgets/OpeningHoursHolidays.widget.php:84
+#: ../lib/widgets/OpeningHoursOverview.widget.php:101
+#: ../lib/widgets/OpeningHoursSpecialOpenings.widget.php:88
+#: ../lib/widgets/OpeningHoursStatus.widget.php:83
+msgid "Title"
+msgstr "Titel"
+
+#: ../lib/widgets/OpeningHoursHolidays.widget.php:92
+msgid "Highlight currently running Holidays."
+msgstr "Highlight aktueel lopende vakantie."
+
+#: ../lib/widgets/OpeningHoursOverview.widget.php:14
+msgid "This Widgets displays an overview of your Opening Hours in the corresponding Sidebar"
+msgstr "Deze Widget toont een overzicht van de Openingstijden in de corresponderende Sidebar"
+
+#: ../lib/widgets/OpeningHoursOverview.widget.php:17
+msgid "Opening Hours Overview"
+msgstr "Openingstijden overzicht"
+
+#: ../lib/widgets/OpeningHoursOverview.widget.php:22
+msgid "Closed"
+msgstr "Gesloten"
+
+#: ../lib/widgets/OpeningHoursOverview.widget.php:109
+msgid "Also show closed days"
+msgstr "Ook gesloten dagen weergeven"
+
+#: ../lib/widgets/OpeningHoursOverview.widget.php:115
+msgid "Caption for \"closed\"-label"
+msgstr "Gebruikers opgegeven \"Gesloten\"-Tekst"
+
+#: ../lib/widgets/OpeningHoursOverview.widget.php:122
+msgid "Highlight:"
+msgstr "Highlight:"
+
+#: ../lib/widgets/OpeningHoursOverview.widget.php:128
+msgid "nothing"
+msgstr "niets"
+
+#: ../lib/widgets/OpeningHoursOverview.widget.php:129
+msgid "running period"
+msgstr "Aktuele periode"
+
+#: ../lib/widgets/OpeningHoursOverview.widget.php:130
+msgid "current day"
+msgstr "Huidige weekdag"
+
+#: ../lib/widgets/OpeningHoursStatus.widget.php:14
+msgid "This Widgets displays information in your sidebar, wether your venue is closed or open."
+msgstr "Deze Widget laat in de Sidebar zien, of u bedrijf momenteel geopend of gesloten bent."
+
+#: ../lib/widgets/OpeningHoursStatus.widget.php:17
+msgid "Opening Hours Status"
+msgstr "Openingstijden: Huidige Status"
+
+#: ../lib/widgets/OpeningHoursStatus.widget.php:21
+msgid "We're currently open."
+msgstr "We zijn op dit moment geopend."
+
+#: ../lib/widgets/OpeningHoursStatus.widget.php:22
+msgid "We're currently closed."
+msgstr "We zijn op dit moment gesloten."
+
+#: ../lib/widgets/OpeningHoursStatus.widget.php:23
+msgid "We're currently on holiday."
+msgstr "We hebben momenteel vakantie."
+
+#: ../lib/widgets/OpeningHoursStatus.widget.php:90
+msgid "Custom open-message"
+msgstr "Aangepast geopend-bericht"
+
+#: ../lib/widgets/OpeningHoursStatus.widget.php:97
+msgid "Custom closed-message"
+msgstr "Aangepast gesloten-bericht"
+
+#: ../lib/widgets/OpeningHoursStatus.widget.php:104
+msgid "Custom closed-holiday-message"
+msgstr "Aangepast gesloten-bericht (tijdens vakantie)"
+
+#: ../lib/classes/OpeningHours.class.php:26 ../templates/setup-page.php:7
+msgid "Monday"
+msgstr "Maandag"
+
+#: ../lib/classes/OpeningHours.class.php:27 ../templates/setup-page.php:8
+msgid "Tuesday"
+msgstr "Dinsdag"
+
+#: ../lib/classes/OpeningHours.class.php:28 ../templates/setup-page.php:9
+msgid "Wednesday"
+msgstr "Woensdag"
+
+#: ../lib/classes/OpeningHours.class.php:29 ../templates/setup-page.php:10
+msgid "Thursday"
+msgstr "Donderdag"
+
+#: ../lib/classes/OpeningHours.class.php:30 ../templates/setup-page.php:11
+msgid "Friday"
+msgstr "Vrijdag"
+
+#: ../lib/classes/OpeningHours.class.php:31 ../templates/setup-page.php:12
+msgid "Saturday"
+msgstr "Zaterdag"
+
+#: ../lib/classes/OpeningHours.class.php:32 ../templates/setup-page.php:13
+msgid "Sunday"
+msgstr "Zondag"
+
+#: ../templates/holidays-page.php:28
+msgid "Add Holiday"
+msgstr "Voeg vakantie toe"
+
+#: ../templates/holidays-page.php:33
+msgid "Give your Holiday a name and set start and end date."
+msgstr "Geef een naam in voor de vakantie en stel een start en eind tijd in."
+
+#: ../lib/widgets/OpeningHoursSpecialOpenings.widget.php:107
+#: ../templates/holidays-page.php:39 ../templates/special-openings-page.php:55
+msgid "Name"
+msgstr "Naam"
+
+#: ../templates/holidays-page.php:40
+msgid "Start Date"
+msgstr "Start-Datum"
+
+#: ../templates/holidays-page.php:41
+msgid "End Date"
+msgstr "Eind-Datum"
+
+#: ../templates/holidays-page.php:53 ../templates/setup-page.php:98
+#: ../templates/setup-page.php:143 ../templates/special-openings-page.php:69
+msgid "Remove"
+msgstr "Verwijder"
+
+#: ../templates/settings-page.php:32
+msgid "Time Format"
+msgstr "Tijd formaat"
+
+#: ../templates/settings-page.php:39
+msgid "Choose a time format"
+msgstr "Kies een tijd formaat"
+
+#: ../templates/settings-page.php:65
+msgid "Insert your own time-format."
+msgstr "Geef een eigen tijd-formaat in."
+
+#: ../templates/settings-page.php:66 ../templates/settings-page.php:110
+msgid "Read more"
+msgstr "Lees meer"
+
+#: ../templates/settings-page.php:75
+msgid "Date Format"
+msgstr "Datum formaat"
+
+#: ../templates/settings-page.php:82
+msgid "Choose a date format"
+msgstr "Kies een Datum formaat"
+
+#: ../templates/settings-page.php:109
+msgid "Insert your own date-format."
+msgstr "Voeg een eigen Datum formaat toe."
+
+#: ../templates/settings-page.php:121
+msgid "Save Changes"
+msgstr "Sla wijzigingen op"
+
+#: ../templates/setup-page.php:96
+msgid "Add Period"
+msgstr "Periode toevoegen"

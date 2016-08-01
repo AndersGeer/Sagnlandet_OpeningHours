@@ -1,0 +1,267 @@
+/*
+*	Table
+*/
+#op-options-times td, #op-options-times th {
+	text-align:		left;
+}
+
+.op-day-heading {
+	width:			150px;
+}
+
+.op-day-options {
+	min-width:		300px;
+}
+
+.op-day-heading label {
+	font-weight:	bold;
+	font-size:		12px;
+}
+
+.op-day-heading label input {
+	margin-right:	10px;
+}
+
+.op-times-container.disabled {
+	opacity:		0.5;
+}
+
+.op-time-group {
+	margin-top:		15px;
+}
+
+.op-time-group:first-child {
+	margin-top:		0px;
+}
+
+.op-form-table th {
+	text-align:		left;
+}
+
+.op-form-table td {
+	padding-right:	10px;
+	padding-top:	5px		!important;
+	padding-bottom:	5px		!important;
+}
+
+/**
+ *	Labels
+ */
+.op-label {
+	display:		inline;
+	padding:		2px 5px;
+	background:		#ccc;
+	border-radius:	3px;
+	color:			white;
+	text-shadow:	none;
+	font-weight:	bold;
+	border:			0px;
+	box-shadow:		none;
+	box-sizing:		border-box;
+}
+
+a.op-label {
+	cursor:			pointer;
+	color:			#fff;
+}
+
+a.op-label:hover {
+	color:				#fff;
+	text-decoration:	none;
+}
+
+a.op-add-period, a.op-remove-period {
+	margin-left:		10px;
+}
+
+.op-time-set {
+	display:		inline-block;
+}
+
+.op-time-set .op-label {
+	display:		inline-block;
+	height:			25px;
+	border-radius:	0px;
+	margin:			0px;
+	line-height:	none;
+	
+	border:			1px solid #bbb;
+}
+
+.op-time-set .op-label.first {
+	border-top-left-radius:		3px;
+	border-bottom-left-radius:	3px;
+}
+
+.op-time-set .op-label.mid {
+	line-height:	21px;
+	border-left:	0px;
+	border-right:	0px;
+}
+
+.op-time-set .op-label.last {
+	border-top-right-radius:	3px;
+	border-bottom-right-radius:	3px;
+}
+
+input[type=text].time-input, input[type=text].date-input {
+	background:		#ccc;
+	box-shadow:		none;
+	border:			1px solid #999;
+	border-radius:	3px;
+	text-align:		center;
+	font-weight:	normal;
+	color:			#666;
+}
+
+.time-input {		width:	65px;	}
+.date-input {		width:	100%;	}
+
+select.op-label[disabled] {
+	color:		#fff;
+}
+
+.op-label.green {
+	background:		#5cb85c;
+}
+
+.op-label.red {
+	background:		#d9534f;
+}
+
+/**
+ * Holidays 
+ */
+#op-holidays-form {
+	max-width:		750px;
+}
+
+#op-holidays-form th {
+	font-weight:	bold;
+}
+
+/**
+ *	HELPERS
+ */
+.hidden {
+	display:		none;
+}
+
+.add-new-h2 {
+	cursor:			pointer;
+}
+
+/**
+ * Custom Timepicker Theme
+ */
+#ui-timepicker-div {
+	margin-left:	-15px;
+	margin-top:		5px;
+}
+ 
+.ui-timepicker-table {
+	background:		#222;
+	border:			none;
+	border-radius:	0px;
+	padding:		10px;
+}
+
+.ui-timepicker-hours {
+	padding-right:		10px !important;
+	border-right:		1px solid #0074a2;
+}
+
+.ui-timepicker-minutes {
+	padding-left:		10px !important;
+}
+
+.ui-timepicker-table th.periods {
+	display:		none;
+}
+
+.ui-timepicker-title {
+	background:		none;
+	color:			#fff;
+	font-weight:	normal;
+	font-family:	'Helvetica Neue', Helvetica, Arial, sans-serif;
+	border:			none;
+}
+
+.ui-state-default {
+	background:		#333	!important;
+	border:			0px		!important;
+	font-weight:	lighter !important;
+	color:			#ccc	!important;
+	display:		inline-block !important;
+	text-align:		center !important;
+}
+
+.ui-state-default:hover {
+	background:		#444 !important;
+}
+
+.ui-state-active {
+	background:		#0074a2 !important;
+	color:			#fff	!important;
+}
+
+.ui-state-active:hover {
+	background:		#0481b3 !important;
+}
+
+.ui-timepicker-buttonpane {
+	border:			none	!important;
+	margin:			0px		!important;
+}
+
+.ui-timepicker-now, .ui-timepicker-close {
+	margin:			5px 0px 0px 0px		!important;
+}
+
+.ui-timepicker-now:hover,
+.ui-timepicker-close:hover {
+	background:		#0074a2	!important;
+	color:			#fff	!important;
+}
+
+/**
+ * Custom Datepicker Theme
+ */
+.ui-datepicker {
+	background:		#222;
+	border:			none;
+	border-radius:	0px;
+	padding:		10px;
+	margin-top:		5px;
+	margin-left:	-5px;
+}
+
+.ui-widget-header {
+	background:		none;
+	border:			none;
+	color:			#fff;
+	font-family:	'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-weight:	normal;
+}
+
+.ui-datepicker-prev, .ui-datepicker-next {
+	background:		#333;
+	border:			1px solid #2f2f2f;
+	color:			white;
+}
+
+.ui-datepicker-prev:hover, .ui-datepicker-next:hover {
+	background:		#0074a2;
+	border:			1px solid #0481b3;
+}
+
+.ui-datepicker td a {
+	display:		inline-block;
+	width:			85%;
+	text-align:		center;
+}
+
+.ui-datepicker th {
+	color:			#fff;
+	font-weight:	normal;
+}
