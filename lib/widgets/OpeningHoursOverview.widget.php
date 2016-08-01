@@ -68,7 +68,8 @@ class Opening_Hours_Overview extends WP_Widget {
 
                             <td class="op-overview-times">
                                 <?php
-
+                                /*
+                                //Shows for a week at a time
                                 $givenYear = date('Y');
                                 $givenWeek = date('W');
                                 $monday = strtotime("{$givenYear}-W{$givenWeek}");
@@ -77,6 +78,11 @@ class Opening_Hours_Overview extends WP_Widget {
 
                                 $firstDateTs = $monday;
                                 $thisDateTs = $firstDateTs + ($daysAdded++ * 86400);
+                                */
+
+                                $firstDateTs = strtotime("today");
+                                $lastDateTs = $firstDateTs + (7*86500);
+
                                 if ($daysAdded == 7) $daysAdded = 0;
 
                                 if (is_array($periods) and count($periods))
@@ -88,13 +94,13 @@ class Opening_Hours_Overview extends WP_Widget {
                                             <?php
 
 
-                                            if (SpecialOpeningBetween($monday,$sunday))
+                                            if (SpecialOpeningBetween($firstDateTs,$lastDateTs))
                                             {
-                                                SpecialOpening($wp_opening_hours, $thisDateTs, $instance['caption-vacation'], $period, $periods,$instance['caption-closed']);
+                                                SpecialOpening($wp_opening_hours, $firstDateTs, $instance['caption-vacation'], $period, $periods,$instance['caption-closed']);
                                             }
                                             else
                                             {
-                                                NormalRoutine($thisDateTs, $instance['caption-vacation'], $period, $periods, $instance['caption-closed']);
+                                                NormalRoutine($firstDateTs, $instance['caption-vacation'], $period, $periods, $instance['caption-closed']);
                                             }
                                             ?>
                                         </div>
@@ -105,13 +111,13 @@ class Opening_Hours_Overview extends WP_Widget {
                                 }
                                 else
                                 {
-                                    if (SpecialOpeningBetween($monday, $sunday))
+                                    if (SpecialOpeningBetween($firstDateTs,$lastDateTs))
                                     {
-                                        SpecialOpening($wp_opening_hours, $thisDateTs, $instance['caption-vacation'], $period, $periods, $instance['caption-closed']);
+                                        SpecialOpening($wp_opening_hours, $firstDateTs, $instance['caption-vacation'], $period, $periods, $instance['caption-closed']);
                                     }
                                     else
                                     {
-                                        NormalRoutine($thisDateTs, $instance['caption-vacation'], $period, $periods, $instance['caption-closed']);
+                                        NormalRoutine($firstDateTs, $instance['caption-vacation'], $period, $periods, $instance['caption-closed']);
                                     }
                                 }
                                 ?>
